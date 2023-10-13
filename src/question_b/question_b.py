@@ -1,8 +1,7 @@
 #write functions here, don't add input('') statements here!
-# question_b.py)
 global_var = 5
 
-# Function to modify the global variable
+# Function to modify the global variable without parameters
 def use_global():
     global global_var  # Declare that we want to use the global variable
     global_var += 10  # Modify the global variable by adding 10
@@ -11,4 +10,4 @@ def use_global():
 use_global()
 
 # Display the updated value of the global variable
-print("Updated global_var:", global_var)
+print("Updated global_var:", global_var) 
